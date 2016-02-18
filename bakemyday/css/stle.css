@@ -1,0 +1,295 @@
+@font-face {
+    font-family: 'sc_manipulative_loversdemo';
+    src: url('../fonts/sc_manipulative_lovers_demo-webfont.eot');
+    src: url('../fonts/sc_manipulative_lovers_demo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sc_manipulative_lovers_demo-webfont.woff2') format('woff2'),
+         url('../fonts/sc_manipulative_lovers_demo-webfont.woff') format('woff'),
+         url('../fonts/sc_manipulative_lovers_demo-webfont.ttf') format('truetype'),
+         url('../fonts/sc_manipulative_lovers_demo-webfont.svg#sc_manipulative_loversdemo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'jenna_sueregular';
+    src: url('../fonts/jennasue-webfont.eot');
+    src: url('../fonts/jennasue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/jennasue-webfont.woff2') format('woff2'),
+         url('../fonts/jennasue-webfont.woff') format('woff'),
+         url('../fonts/jennasue-webfont.ttf') format('truetype'),
+         url('../fonts/jennasue-webfont.svg#jenna_sueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+    background-image: url("../img/NBG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#wrapper {
+	background: rgba(237,232,236, 0.85);
+	margin: 100px auto;
+	width: 60%;
+	color: white;
+	position: relative;
+	border-radius: 3px;
+	-webkit-box-shadow: 0px 0px 46px 0px rgba(224,143,224,1);
+	-moz-box-shadow: 0px 0px 46px 0px rgba(224,143,224,1);
+	box-shadow: 0px 0px 46px 0px rgba(219,200,215,1);
+}
+
+#logo {
+	background: url(../img/Logo.png) no-repeat;
+	height: 217px;
+	width: 266px;
+	position: absolute;
+	right: 83%;
+	top: -70px;
+	z-index:100;
+}
+
+#navbar {
+	width: 55%;
+	position: absolute;
+	left: 28%;
+	top: 35px;
+}
+
+#navbar li {
+	padding: 0 2%;
+	display:inline-block;
+	border-right: 1px solid #fff;
+}
+
+#navbar li:last-child {
+	border-right: none;
+}
+
+#navbar a {
+	font-size: 28px;
+	display: inline-block;
+	color: #f5f8b5;	
+	text-decoration: none;
+}
+
+#wrapper h1+p {
+	line-height: 2.5em;
+	font-size: 20px;
+	padding: 30px;
+	margin-left: 80px;
+	text-align: center;
+	color: #000;
+}
+
+.main {
+		font: 70px 'jenna_sueregular';
+}
+
+#wrapper h1 {
+	margin: 25px 0 0 10%;
+
+	text-align: center;
+	color: #000;
+}
+
+#gallery {
+	text-align: center;
+	}
+
+/* style the thumbnails */
+
+#thumbs {
+	/*width: 60%;*/
+	list-style: none;
+	padding: 0 20% 20px;
+	margin: 0 auto 20px;
+	border-bottom: 2px solid #333;
+	}
+	
+#thumbs li {
+	width: 20%;
+	display: inline-block;
+	margin: 0 -10px;
+	}
+	
+#thumbs li a img {
+	border: 1px dashed #000;
+	background: #fff;
+	opacity: .6;
+	width: 70%;
+}
+	
+#thumbs li a img:hover {
+	opacity: 1;
+	}
+
+/* style the big main image and caption */	
+#galleryBig {
+	border: 4px solid #333;
+	padding: 2px;
+	background: #666;
+	}
+	
+#caption {
+	font: bold 18px georgia, times, serif;
+	background: rgba(255,255,255,.7);
+	position: relative;
+	top: -3em;
+	padding: 5px;
+	}
+
+#photoShow {
+	border: 3px double #333;
+	padding: 10px;
+	background: #ccc;
+}
+
+#photoShow img {
+	border: 1px solid #333;
+    position:absolute;
+    z-index: 0;
+}
+
+#photoShow img.previous {
+    z-index: 1;
+}
+
+#photoShow img.current {
+    z-index: 2;
+}
+
+#contactMe {
+	padding: 7px;
+	margin-top: 30px;
+	text-align: center;
+	color: #000;
+}
+
+.widget {
+	padding: 5px;
+	margin: 5px;
+}
+
+
+a[href="mailto:apieforstrength@gmail.com"] {
+	color:#000;
+}
+
+#dessertList {
+	width: 82%;
+	margin-left: 18%;
+
+}
+
+#dessertList li {
+	width: 19%;
+	padding: 1.5%;
+	display: inline-block;
+	border-radius: 3px;
+	border: 1px solid pink;
+-webkit-box-shadow: inset 0px 0px 10px 3px rgba(232,207,232,1);
+-moz-box-shadow: inset 0px 0px 10px 3px rgba(232,207,232,1);
+box-shadow: inset 0px 0px 10px 3px rgba(232,207,232,1);
+}
+
+#dessertList a {
+		text-decoration: none;
+}
+
+#dessertList li:hover {
+	-webkit-box-shadow: inset 0px 0px 34px 3px rgba(173,151,173,1);
+	-moz-box-shadow: inset 0px 0px 34px 3px rgba(173,151,173,1);
+	box-shadow: inset 0px 0px 34px 3px rgba(173,151,173,1);
+}
+
+#dessertList p {
+	font-size: 24px;
+	text-align: center;
+	color: #71730d;	
+}
+
+#btn {
+	margin-left: 17%;
+}
+
+.btn {
+  display: inline-block;
+  background: #edc0e4;
+  background-image: -webkit-linear-gradient(top, #edc0e4, #f1d5f2);
+  background-image: -moz-linear-gradient(top, #edc0e4, #f1d5f2);
+  background-image: -ms-linear-gradient(top, #edc0e4, #f1d5f2);
+  background-image: -o-linear-gradient(top, #edc0e4, #f1d5f2);
+  background-image: linear-gradient(to bottom, #edc0e4, #f1d5f2);
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 2px 10px #d9a3d9;
+  -moz-box-shadow: 0px 2px 10px #d9a3d9;
+  box-shadow: 0px 2px 10px #d9a3d9;
+  font-family: Arial;
+  width: 18%;
+  color: #8a238a;
+  font-size: 18px;
+  padding: 10px 15px 10px 15px;
+  border: solid #c770a8 .5px;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 1%;
+  margin: 10px;
+  }
+
+.btn:hover {
+  background: #d4aed6;
+  text-decoration: none;
+}
+
+#myButton {
+	margin-left: 19%;
+	margin-top: 2%;
+}
+
+.myButton {
+	-moz-box-shadow:inset 0px 0px 15px 3px #cc98d1;
+	-webkit-box-shadow:inset 0px 0px 15px 3px #cc98d1;
+	box-shadow:inset 0px 0px 15px 3px #cc98d1;
+	background-color:#e8c7e4;
+	-moz-border-radius:9px;
+	-webkit-border-radius:9px;
+	border-radius:9px;
+	border:2px solid #e6b3e4;
+	display:inline-block;
+	cursor:pointer;
+	color:#8a238a;
+	font-family:Times New Roman;
+	font-size:24px;
+	font-style:italic;
+	padding:11px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 6px #6e5b21;
+}
+.myButton:hover {
+	background-color:#ccb3cb;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+h4 {
+	margin-top: 15px;
+	padding-left: 70px;
+	text-align: center;
+	color: #000;
+}
+
+

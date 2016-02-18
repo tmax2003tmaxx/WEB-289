@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'sc_manipulative_loversdemo';
+    src: url('../fonts/sc_manipulative_lovers_demo-webfont.eot');
+    src: url('../fonts/sc_manipulative_lovers_demo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sc_manipulative_lovers_demo-webfont.woff2') format('woff2'),
+         url('../fonts/sc_manipulative_lovers_demo-webfont.woff') format('woff'),
+         url('../fonts/sc_manipulative_lovers_demo-webfont.ttf') format('truetype'),
+         url('../fonts/sc_manipulative_lovers_demo-webfont.svg#sc_manipulative_loversdemo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'jenna_sueregular';
+    src: url('../fonts/jennasue-webfont.eot');
+    src: url('../fonts/jennasue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/jennasue-webfont.woff2') format('woff2'),
+         url('../fonts/jennasue-webfont.woff') format('woff'),
+         url('../fonts/jennasue-webfont.ttf') format('truetype'),
+         url('../fonts/jennasue-webfont.svg#jenna_sueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+    background-image: url("../img/bg.png");
+ 
+
+}
