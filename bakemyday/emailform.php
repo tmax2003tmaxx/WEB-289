@@ -56,24 +56,13 @@
 </div>
 <br><br><br><br><br><br><br><br><br>
 
-<!-- <form id="email" method="get" action="login.php">
+<form id="email" method="get" action="login.php">
 <h3>Enter E-mail</h3>
 <input type="hidden" name="action" value="validate_email">
 <input type="text" name="email"><br>
-<input type="submit" name="submit" value="submit">
-</form> -->
-
-
-
-<br><br>
-
-<form id="login" method="get" action="login1.php">
-<h3>Enter E-mail</h3>
-<input type="hidden" name="action" value="validate_email">
-<input type="text" name="email"><br>
-<input type="text" name="fName"></input>
 <input type="submit" name="submit" value="submit">
 </form>
+
 </div>
 </body>
 <footer></footer>
